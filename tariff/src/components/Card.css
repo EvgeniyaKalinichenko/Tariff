@@ -1,0 +1,75 @@
+.card {
+    width: 250px;
+    height: 300px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.cardContainer{
+    display: inline-block;
+}
+
+.blue .name {
+    background-color: rgba(44, 204, 183, 0.248);
+
+}
+
+.blue .cost {
+    background-color: rgb(10, 223, 201);
+}
+
+.green .name {
+    background-color: rgb(95, 218, 95)
+}
+
+.green .cost {
+    background-color: rgb(144, 212, 144)
+}
+
+.orange .name{
+    background-color: rgb(209, 57, 27)
+}
+
+.orange .cost{
+    background-color: rgb(212, 86, 61)
+}
+
+.black .name{
+    background-color: black;
+}
+
+.black .cost{
+    background-color: rgb(31, 31, 31);
+}
+
+.default {
+    background-color: red;
+}
+
+.speed {
+    background-color: aliceblue;
+    color:  gray;
+    font-size: medium;
+    padding: 15px;
+}
+
+.value {
+    background-color: rgb(225, 223, 223);
+    color:  gray;
+    font-size: medium;
+    padding: 15px;
+}
+
+.name {
+    height: 20%;
+}
+
+.cost {
+    height: 40%;
+    
+}
+
+.isSelected {
+    height: 330px;
+    background-color: rgb(225, 223, 223);
+}
