@@ -16,7 +16,7 @@ const tariffs = [
     cost: "руб 550 /мес",
     speed: "до 100 Мбит/сек",
     value: "Объем выключенного трафика не ограничен",
-    isSelected: true,
+    // isSelected: true,
     },
     {
     name: "Безлимитный 1000",

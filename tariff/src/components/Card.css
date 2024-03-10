@@ -10,7 +10,7 @@
 }
 
 .blue .name {
-    background-color: rgba(44, 204, 183, 0.248);
+    background-color: rgba(44, 244, 224, 0.248);
 
 }
 
@@ -71,5 +71,6 @@
 
 .isSelected {
     height: 330px;
+    width: 270px;
     background-color: rgb(225, 223, 223);
 }
